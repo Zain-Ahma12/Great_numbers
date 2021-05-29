@@ -1,13 +1,13 @@
 '''
 Programe tell a number is great or not 
 GREAT NUMBER (n):   Number whose sum of digits (l)
-                    Product of digit (m) satisfy
+                    Product of digit (m) 
+                    satisfy:
                            'm+l=n'
 '''
 
 def great(n):
-    a=0
-    b=1
+    a,b=0,1
     for i in str(n):
         a+=int(i)
         b=b*int(i)
